@@ -1,0 +1,259 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: url('body-bg.jpeg') no-repeat center fixed;
+    ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+    vertical-align: middle;
+}
+label{
+    width: 100%;
+    position: relative;
+    padding-left: 15%;
+    place-self:ce;
+}
+/*div{
+    vertical-align: middle;
+    position:relative;
+    background-color: aqua;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.uname{
+    height: 40px;
+}*/
+h1{
+    color: rgb(144, 203, 157);
+    position:static;
+}
+
+
+
+form {
+    background-color: rgba(255, 235, 205, .6);
+    padding: 20px;
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #c4dcc4;
+    max-width: 400px;
+    width: 40vw;
+    height:vh;
+}
+input[type=text], input[type=password], input[type=email] {
+    font-family: 'Courier New', Courier, monospace;
+    position:relative;
+    padding: 10px;
+    text-align: center;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width:80%;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+}
+/* input[type=submit]:hover {
+    background-color: #45a049;
+}
+@media (max-width:460px) {
+    
+    body{
+        width: 400px;
+        }
+    form {
+        height: auto;
+        place-items: center;
+        width: 184px;
+    }
+    h1 {
+        margin-top: 20px;
+        width: 195px;
+    }
+    p{
+        margin-bottom: 10px;
+    }
+    
+}
+#AddClassForm {
+    margin-top: 100px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#AddClassMembers {
+    margin-top: 40px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+}
+
+.cont {
+    height: 75vh;
+    overflow-x: hidden;
+}
+
+.btn-success, .btn-danger {
+    width: 10px;
+    height: 5px;
+}
+
+.fa-minus-circle {
+    color: #dc3545;
+}
+
+#Individuals {
+    margin-top: 40px;
+}
+
+#RegisterCourses {
+    margin-top: 40px;
+}
+
+body {
+    background: url('../imgs/body-bg.jpeg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.registryLogin {
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+}
+.dash_body{
+    overflow-x: hidden;
+}
+.open_column_left{
+    transition: transform 0.5s linear;
+    position: absolute;
+    align-items:self-start;
+    height: 100vh;
+    width: 15vw;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.close_column_left{
+    transition: transform 0.5s linear;
+    position: absolute;
+    align-items:self-start;
+    height: 100vh;
+    width: 60px;
+    background-color: transparent;
+}
+.open_options_button{
+    transition: transform 0.5s linear;
+    position: relative;
+    margin-left: 10.8vw;
+    height: 60px;
+    width: 60px;
+    text-align:center;
+    font-size: 50px;
+    color: white;
+    background-color: #008080;
+}
+.open_options_button:hover{
+    background-color: rgba(0, 0, 0, .8);
+}
+.close_options_button{
+    transition: transform 0.5s linear;
+    position: relative;
+    margin-left: 0px;
+    height: 60px;
+    width: 60px;
+    text-align:center;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.close_options_button:hover{
+    background-color: #008080;
+}
+
+.menu-item{
+    padding-top: 15px;
+    position: relative;
+    left: -40px;
+    width: 15vw;
+    list-style: none;
+    height: 50px;
+    color: white;
+}
+.limenu-item{
+    margin-left: 50px;
+}
+.li_space{
+    position: relative;
+    left: -40px;
+    height: 0.2px;
+    width: 15vw;
+    background-color: #008080;
+}
+.menu-item:hover{
+    cursor: pointer;
+    background-color: #008080;
+}
+.h3title{
+    margin-top: 60px;
+}
+.h3title h3{
+    margin-left: 10px;
+}
+
+.column_right{
+    position: relative;
+    background-color:rgb(230, 224, 216);
+    height: 100vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15vw;
+}
+.stats_row_1{
+    display: flex;
+    flex-direction: row;
+}
+.underline_h3{
+    height: 2px;
+    width: 130vh;
+    background-color:#008080;
+}
+.stats_row_1 div{
+    margin-top: 30px;
+    margin-left: 4.5vw;
+    margin-right: 4.5vw;
+}
+.stats_row_2{
+    margin-top: 30px;
+    display: flex;
+    align-self:self-start;
+    margin-left: 7.5vw;
+    flex-direction: row;
+}
+.viewCol{
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+} */

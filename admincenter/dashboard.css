@@ -1,0 +1,127 @@
+body{
+    width: 100vw;
+    min-width: 750px;
+}
+.left_sideBar{
+    position: absolute;
+    height: 100vh;
+    width: 20vw;
+    background-color: rgba(0, 0, 0, .4);
+    min-width: 150px;
+    padding-top:3vw;
+    text-align: center;
+}
+.right_sidebar{
+    padding: 2%;
+    position:static;
+    height: 100vh;
+    width: 80vw;
+    min-width: 600px;
+    background-color: #008080;
+    float: right;
+}
+.options_select h3{
+    font-size: 20px;
+}
+.options_select{
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 4.5%;
+    margin-top: 5%;
+    position: relative;
+    background-color: aquamarine;
+    min-height: 30px;
+    height: 6vh;
+    margin-left: 5%;
+    width: 90%;
+}
+.options_select:active{
+    background-color: #008080;
+}
+
+  .decorative-table {
+    text-align: center;
+    max-height: 300px;
+    overflow-y: auto;
+    width: 100%;
+    border-collapse: collapse;
+  }
+.right_sidebar {
+    overflow-y: scroll;
+}
+
+  .decorative-table th,
+  .decorative-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .decorative-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .decorative-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .decorative-table tr:hover {
+    background-color: #ebebeb;
+  }
+  label{
+    width: 100%;
+    position: relative;
+    padding-left: 15%;
+    place-self:ce;
+}
+/*div{
+    vertical-align: middle;
+    position:relative;
+    background-color: aqua;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.uname{
+    height: 40px;
+}*/
+h1{
+    color: rgb(144, 203, 157);
+    position:static;
+}
+
+
+
+form {
+    background-color: rgba(255, 235, 205, .6);
+    padding: 20px;
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #c4dcc4;
+    width: 100%;
+    height:vh;
+}
+input[type=text], input[type=password], input[type=email] {
+    font-family: 'Courier New', Courier, monospace;
+    position:relative;
+    padding: 10px;
+    text-align: center;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width:80%;
+}
+#reg_submit_button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+}
